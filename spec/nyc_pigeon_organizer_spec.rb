@@ -222,7 +222,7 @@ describe "NYC Pigeon Organizer" do
           expect(@lola[:lives].length).to eq(1)
           expect(@lola[:lives]).to include("Central Park")
         end
-      end
+      nil
     end
   end # method
 end # suite

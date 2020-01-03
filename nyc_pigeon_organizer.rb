@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(data)
   # write your code here!
-  result = new.Hash()
+  result = new.Hash
   
   data.each do |pigeon, value|
     value.each do |details, names|
@@ -19,6 +19,5 @@ def nyc_pigeon_organizer(data)
       }
      end
     end
-  end
   return result
 end
